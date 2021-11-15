@@ -1,0 +1,39 @@
+@startuml
+
+title __ASSIGNMENT5's Class Diagram__\n
+
+    namespace Assignments.Assignment5 {
+      class Assignments.Assignment5.ClemsonCricket {
+          + ClemsonCricket()
+          + getChirpCount()
+          + toString()
+      }
+    }
+
+    namespace Assignments.Assignment5 {
+      class Assignments.Assignment5.Cricket {
+          + Cricket()
+          + getChirpCount()
+          + toString()
+      }
+    }
+
+    namespace Assignments.Assignment5 {
+      class Assignments.Assignment5.Environment {
+          - temp : int
+          + Environment()
+          + Environment()
+          + getTemp()
+          + setTemp()
+          + toString()
+      }
+    }
+
+    namespace Assignments.Assignment5 {
+      class Assignments.Assignment5.TestCrickets {
+          {static} + main()
+      }
+    }
+
+  Assignments.Assignment5.ClemsonCricket -up-|> Assignments.Assignment5.Cricket
+@enduml

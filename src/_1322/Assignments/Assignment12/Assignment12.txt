@@ -1,0 +1,5 @@
+//Class		CSE1322L
+//Teacher	Peter Adeojo
+//Student	Ronnin Collins
+
+Response: After increasing the sample text to 100,000 lines to ensure a long enough test, a peculiar result keeps repeating. Regardless of threaded or not, with each iteration the speed it takes to perform the strip continues to improve. When comparing threaded vs not and comparing the 1st iteration of each, threaded was only slightly faster and sometimes slower than threaded. My conclusion is that string manipulation may not be that CPU intense and not be an ideal candidate to illustrate where multi-threading far exceed single threading code.

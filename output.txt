@@ -1,0 +1,4 @@
+The file statistics for file: C:\Users\rcollins779x\My Drive (rcollins779x@gmail.com)\School\GitRepo\Java\CodeSignal\src\_1322\Labs\Lab12\HungerGames.txt
+Total lines: 1,071
+Total words: 100,076
+Total chars: 421,310
